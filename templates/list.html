@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+In Session:
+{% endblock %}
+{% block body %}
+<ul>
+	 {% for name in names %}
+	 <li> {{ name }} </li>
+	 {% endfor %}
+</ul>
+{% endblock %}
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+   	<title>Desarrollo Basado en Plataformas</title>
+   </head>
+   <body>
+   	<h1>In Session:</h1>
+      <ul>
+         {% for name in names %}
+         <li> {{ name }} </li>
+         {% endfor %}
+      </ul>
+   </body>
+</html>
