@@ -1,3 +1,3 @@
 # Register
 + Diego Enrique Zegarra Zenteno
- Registro de datos
++ Registro de datos
